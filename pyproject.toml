@@ -1,0 +1,22 @@
+[project]
+name = "ada-forecast"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "click>=8.2.1",
+    "pandas>=2.3.2",
+    "plotly>=6.3.0",
+    "prophet>=1.1.7",
+    "scikit-learn>=1.7.2",
+    "statsforecast>=2.0.2",
+    "streamlit>=1.49.1",
+    "xgboost>=3.0.5",
+]
+
+[tool.ruff]
+line-length = 120
+
+[tool.basedpyright]
+typeCheckingMode = "standard"
